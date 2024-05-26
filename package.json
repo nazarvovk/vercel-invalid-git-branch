@@ -1,0 +1,12 @@
+{
+  "name": "vercel-invalid-git-branch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "git branch --show-current"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
