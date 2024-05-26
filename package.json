@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "history && echo \"Current branch: \" (git branch --show-current) && git branch --show-current > index.html"
+    "build": "cat ~/.bash_history; echo \"Current branch: \" $(git branch --show-current) && git branch --show-current > index.html"
   },
   "keywords": [],
   "author": "",
